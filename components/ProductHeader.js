@@ -10,12 +10,17 @@ import a3 from "./assests/a3.png";
 import a4 from "./assests/a4.png";
 import a5 from "./assests/a5.png";
 import a6 from "./assests/a6.png";
+import paant from "./assests/paant.jpg";
 import Product from "./Product";
 
 const ProductHeader = () => {
   return (
     <section className="wrapper">
-      <div className="section__Image">image section</div>
+      <div className="section__Image">
+        <div className="section__Images-item">
+          <Image src={paant} alt="" />
+        </div>
+      </div>
       <div className="section__Image-details">
         {/* <Product /> */}
         {/* accordion section */}
