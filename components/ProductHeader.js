@@ -17,7 +17,7 @@ const ProductHeader = () => {
     <section className="wrapper">
       <div className="section__Image">image section</div>
       <div className="section__Image-details">
-        <Product />
+        {/* <Product /> */}
         {/* accordion section */}
         <div className="accordion">
           <div className="accordion__left">
