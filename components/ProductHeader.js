@@ -17,12 +17,12 @@ const ProductHeader = () => {
   return (
     <section className="wrapper">
       <div className="section__Image">
-        <div className="section__Images-item">
+        <div>
           <Image src={paant} alt="" />
         </div>
       </div>
       <div className="section__Image-details">
-        {/* <Product /> */}
+        <Product />
         {/* accordion section */}
         <div className="accordion">
           <div className="accordion__left">
@@ -31,6 +31,7 @@ const ProductHeader = () => {
           </div>
           <div className="accordion__right">[ + ]</div>
         </div>
+
         <div className="accordion">
           <div className="accordion__left">
             <Image src={a2} alt="" />

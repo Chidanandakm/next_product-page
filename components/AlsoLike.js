@@ -33,7 +33,9 @@ const AlsoLike = () => {
       <section className="you__may-like">
         {productList.map((product) => (
           <div className="section__product" key={product.id}>
-            <Image src={product.image} alt="" />
+            <div>
+              <Image src={product.image} alt="" />
+            </div>
             <h2>{product.name}</h2>
             <p>Rs.{product.price}</p>
           </div>

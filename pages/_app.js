@@ -3,6 +3,7 @@ import "../styles/Navbar.scss";
 import "../styles/Footer.scss";
 import "../styles/AlsoLike.scss";
 import "../styles/ProductHeader.scss";
+import "../styles/Review.scss";
 import "../styles/product.scss";
 
 function MyApp({ Component, pageProps }) {

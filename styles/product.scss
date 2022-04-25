@@ -46,11 +46,12 @@
   max-width: 100%;
 }
 .product_details {
-  width: 428px;
-  margin: 16px 16px;
-  @media (min-width: 768px) {
-    width: 600px;
+  width: 100%;
+  @media screen and (max-width: 768px) {
+    padding: 0 1rem;
   }
+    
+  
 }
 
 .product_rating {
@@ -138,7 +139,7 @@
 }
 // product size section
 .product_size {
-  margin: 16px 16px;
+  // margin: 16px 16px;
   padding-bottom: 10px;
   border-bottom: 2px solid #a1a096be;
   //   @media (min-width: 768px) {
