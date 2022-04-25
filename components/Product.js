@@ -1,3 +1,8 @@
+import Image from "next/image";
+import p1 from "./assests/p1.png";
+import p2 from "./assests/p2.png";
+import star from "./assests/star.png";
+import zest from "./assests/zest.png";
 function Product() {
   return (
     <>
@@ -12,7 +17,7 @@ function Product() {
           <div className="product_rating">
             <span>Bestseller </span>
             <span>
-              <img src="/star.png" alt="" /> 4/5 (2)
+              <Image src={star} alt="" /> 4/5 (2)
             </span>
           </div>
           <h1 className="product_title">Power Stretch Comet Blue Pants</h1>
@@ -20,7 +25,7 @@ function Product() {
             ₹ 2,490 <strike>₹ 2,490</strike>
             <span>
               Or 3 interest-free payments of <b>₹997</b> with
-              <img src="/zest.png" alt="" />
+              <Image src={zest} alt="" />
             </span>
           </p>
           <div className="product_colour">
@@ -91,17 +96,11 @@ function Product() {
               <p>We alter them,till you love them</p>
               <p>
                 {" "}
-                <img
-                  src="/fast-delivery.png"
-                  width="20px"
-                  height="20px"
-                  alt=""
-                />{" "}
-                Fast Delivery, Dispatch in 7 days
+                <Image src={p2} alt="" /> Fast Delivery, Dispatch in 7 days
               </p>
             </div>
             <div>
-              <img src="/alter.png" alt="Free Alterations" />
+              <Image src={p1} alt="Free Alterations" />
             </div>
           </section>
         </div>
