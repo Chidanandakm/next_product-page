@@ -5,23 +5,6 @@
 .product {
   display: flex;
   flex-wrap: wrap;
-  //   flex-direction: column;
-
-  //   @media (min-width: 768px) {
-  //     flex-wrap: nowrap;
-  //     .product_img {
-  //       order: 1;
-  //     }
-  //     .product_breadcum {
-  //       order: 2;
-  //       //   display: none;
-  //       //   width: 100%;
-  //       //   flex: 1;
-  //     }
-  //     .product_details {
-  //       order: 3;
-  //     }
-  //   }
 }
 .product_breadcum {
   width: 100%;
