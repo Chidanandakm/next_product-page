@@ -142,9 +142,6 @@
   // margin: 16px 16px;
   padding-bottom: 10px;
   border-bottom: 2px solid #a1a096be;
-  //   @media (min-width: 768px) {
-  //     margin: 50px 0 0 60px;
-  //   }
   div:first-child {
     display: flex;
     justify-content: space-between;
@@ -262,7 +259,6 @@
   div:last-child {
     img {
       min-height: 88px;
-      //   object-fit: cover;
       border-radius: 0px 4px 4px 0px;
     }
   }

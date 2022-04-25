@@ -7,12 +7,6 @@ function Product() {
   return (
     <>
       <section className="product">
-        {/* <div className="product_breadcum">
-          <h3>Home > Power Strech</h3>
-        </div> */}
-        {/* <div className="product_img">
-          <img src="/product.png" alt="me" />
-        </div> */}
         <div className="product_details">
           <div className="product_rating">
             <span>Bestseller </span>
