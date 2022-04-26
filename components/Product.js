@@ -3,6 +3,80 @@ import p1 from "./assests/p1.png";
 import p2 from "./assests/p2.png";
 import star from "./assests/star.png";
 import zest from "./assests/zest.png";
+const waistSize = [
+  {
+    id: 1,
+    number: 23,
+  },
+  {
+    id: 2,
+    number: 29,
+  },
+  {
+    id: 3,
+    number: 30,
+  },
+  {
+    id: 4,
+    number: 31,
+  },
+  {
+    id: 5,
+    number: 32,
+  },
+  {
+    id: 6,
+    number: 33,
+  },
+  {
+    id: 7,
+    number: 34,
+  },
+  {
+    id: 8,
+    number: 35,
+  },
+  {
+    id: 9,
+    number: 36,
+  },
+  {
+    id: 10,
+    number: 37,
+  },
+  {
+    id: 10,
+    number: 38,
+  },
+  {
+    id: 10,
+    number: 37,
+  },
+  {
+    id: 10,
+    number: 38,
+  },
+  {
+    id: 10,
+    number: 39,
+  },
+  {
+    id: 10,
+    number: 40,
+  },
+  {
+    id: 10,
+    number: 41,
+  },
+  {
+    id: 10,
+    number: 42,
+  },
+  {
+    id: 10,
+    number: 43,
+  },
+];
 function Product() {
   return (
     <>
@@ -45,15 +119,12 @@ function Product() {
                 brands may lead to inaccurate measurements.
               </p>
             </div>
-            <div className="product_size__numbers">
-              <span className="product_size__numbers_box">23</span>
-              <span className="product_size__numbers_box">29</span>
-              <span className="product_size__numbers_box">30</span>
-              <span className="product_size__numbers_box active">31</span>
-              <span className="product_size__numbers_box">32</span>
-              <span className="product_size__numbers_box">33</span>
-              <span className="product_size__numbers_box">34</span>
-              <span className="product_size__numbers_box">28</span>
+            <div className="scrolling-wrapper-flexbox">
+              <div className="product_size__numbers card">
+                {waistSize.map((size) => (
+                  <span key={size.id}>{size.number}</span>
+                ))}
+              </div>
             </div>
           </section>
           <section className="product_size">
@@ -64,15 +135,12 @@ function Product() {
               <p>Sizing guide</p>
             </div>
             <div></div>
-            <div className="product_size__numbers">
-              <span className="product_size__numbers_box">23</span>
-              <span className="product_size__numbers_box">29</span>
-              <span className="product_size__numbers_box">30</span>
-              <span className="product_size__numbers_box ">31</span>
-              <span className="product_size__numbers_box active">32</span>
-              <span className="product_size__numbers_box">33</span>
-              <span className="product_size__numbers_box">34</span>
-              <span className="product_size__numbers_box">28</span>
+            <div className="scrolling-wrapper-flexbox">
+              <div className="product_size__numbers card">
+                {waistSize.map((size) => (
+                  <span key={size.id}>{size.number}</span>
+                ))}
+              </div>
             </div>
           </section>
 

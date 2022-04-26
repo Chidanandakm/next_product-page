@@ -5,6 +5,8 @@ import "../styles/AlsoLike.scss";
 import "../styles/ProductHeader.scss";
 import "../styles/Review.scss";
 import "../styles/product.scss";
+// import "~slick-carousel/slick/slick.css";
+// import "~slick-carousel/slick/slick-theme.css";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
