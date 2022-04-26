@@ -254,10 +254,12 @@
 
 .scrolling-wrapper-flexbox {
   display: flex;
-  // flex-wrap: wrap;
-  // justify-content: space-evenly;
+  flex-wrap: wrap;
+  
+  justify-content: space-evenly;
   width: 100%;
-  overflow-x: scroll;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: scroll;
 
   @media screen and (max-width: 768px) {
     // flex-wrap: nowrap;

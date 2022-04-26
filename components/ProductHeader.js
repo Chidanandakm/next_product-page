@@ -80,7 +80,7 @@ const ProductHeader = () => {
           </div>
         </details>
         <details className="accordion">
-          <summary className="accordion__btn" onClick={handleClick}>
+          <summary className="accordion__btn">
             <div className="accordion__left">
               <Image src={a2} alt="" />
               <h3>How to Measure</h3>
@@ -97,7 +97,7 @@ const ProductHeader = () => {
           </div>
         </details>
         <details className="accordion">
-          <summary className="accordion__btn" onClick={handleClick}>
+          <summary className="accordion__btn">
             <div className="accordion__left">
               <Image src={a3} alt="" />
               <h3>Alterations & returns</h3>
@@ -139,7 +139,7 @@ const ProductHeader = () => {
         {/* accordion  */}
 
         <details className="accordion">
-          <summary className="accordion__btn" onClick={handleClick}>
+          <summary className="accordion__btn">
             <div className="accordion__left">
               <Image src={a4} alt="" />
               <h3>Delivery Time</h3>
@@ -156,7 +156,7 @@ const ProductHeader = () => {
           </div>
         </details>
         <details className="accordion">
-          <summary className="accordion__btn" onClick={handleClick}>
+          <summary className="accordion__btn">
             <div className="accordion__left">
               <Image src={a5} alt="" />
               <h3>Fabric details</h3>
@@ -173,7 +173,7 @@ const ProductHeader = () => {
           </div>
         </details>
         <details className="accordion">
-          <summary className="accordion__btn" onClick={handleClick}>
+          <summary className="accordion__btn">
             <div className="accordion__left">
               <Image src={a6} alt="" />
               <h3>Wash Care</h3>
