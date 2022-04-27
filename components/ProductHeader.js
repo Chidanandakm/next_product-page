@@ -16,6 +16,7 @@ import Product from "./Product";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import ImageSlider from "./ImageSlider";
 
 const ProductHeader = () => {
   const [open, setOpen] = useState(false);
@@ -34,25 +35,10 @@ const ProductHeader = () => {
   return (
     <section className="wrapper">
       <div className="section__Image">
-        {/* <div className="slider__container"> */}
         <div>
-          <Image src={paant} alt="" />
+          <ImageSlider />
+          {/* <Image src={paant} alt="" /> */}
         </div>
-        {/* <div className="slider__Images"> */}
-        {/* <Image src={image1} layout="fill" alt="" /> */}
-        {/* </div> */}
-        {/* <Slider {...settings}> */}
-        {/* <div className="single__Image"> */}
-        {/* <Image src={paant} alt="" /> */}
-        {/* </div> */}
-        {/* <div className="single__Image">
-              <Image src={paant} alt="" />
-            </div>
-            <div className="single__Image">
-              <Image src={paant} alt="" />
-            </div> */}
-        {/* </Slider> */}
-        {/* </div> */}
       </div>
       <div className="section__Image-details">
         <Product />

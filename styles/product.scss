@@ -259,7 +259,7 @@
   justify-content: space-evenly;
   width: 100%;
   overflow-x: auto;
-  -webkit-overflow-scrolling: scroll;
+  scroll-snap-type: x mandatory;
 
   @media screen and (max-width: 768px) {
     // flex-wrap: nowrap;
@@ -267,10 +267,16 @@
     // width: 390px;
     .card {
       flex: 0 0 auto;
+      
     }
   }
   -webkit-overflow-scrolling: touch;
   &::-webkit-scrollbar {
     display: none;
   }
+}
+
+.card{
+  scroll-snap-align: start;
+  scroll-snap-align: center;
 }

@@ -57,7 +57,7 @@
     
     @media screen and (max-width: 768px) {
         flex-direction: column;
-        margin: 1.2rem 0;
+        margin: .5rem 0;
         padding: 0;
         height: 100%;
         width: 100%;
@@ -110,12 +110,11 @@
     li{
         padding: 3px 0;
         margin: 3px 0;
-        
     }
     
     @media screen and (max-width: 768px) {
         flex-direction: column;
-        margin: 1.2rem 0;
+        margin: 1rem 0;
         padding: 0;
         height: 100%;
         width: 100%;
